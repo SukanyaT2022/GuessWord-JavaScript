@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+.wrap{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 80%;
+margin: 60px auto;
+
+}
+.targetHeader{
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid lightblue;
+    transform: skew(5deg,3deg);
+    width: 38%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.star img{
+    width: 100px;
+}
+.controlThe{
+    font-family: 'Borel', cursive;
+    font-size: 25px;
+}
+#img1{
+width: 100%;
+}
+.mainBox{
+    background-color: #D6EAF8 ;
+    padding: 30px;
+    width: 40%;
+}
+.mainBox p{
+font-size: 20px;
+}
+.targetUFOImage{
+    width: 60%; 
+    padding-left: 80px;  
+}
+.guessButton{
+background-color: orange;
+border: none;
+padding: 10px 12px;
+border-radius: 20px;
+margin: 0px 5px;
+}
+.restartButton{
+    background-color: pink;
+    border: none;
+padding: 10px 12px;
+border-radius: 20px;
+
+}
+#checkGuessID{
+    border: none;
+    padding: 10px 12px;
+    border-radius: 20px; 
+}

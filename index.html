@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Word</title>
+    <script src="index.js"></script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload= "refresh()">
+    <div class="targetHeader">
+        <div class="star">
+            <img src="Image/star-BG.png">
+        </div>
+        <h1>GUESS <span class="controlThe">the</span> WORD</h1>
+        <div class="star">
+            <img src="Image/star-BG.png">
+        </div>
+    </div>
+    <div class="wrap">
+<div class="mainBox">
+
+<div class='WordHasThisLetter'></div>
+<div id='blankWord'> </div>
+<div id='guessRemaining'></div>
+<p>Type one letter</p>
+<input type="text" id="checkGuessID" />
+<button class='guessButton' onclick="checkGuess()">Guess!</button>
+<button class='restartButton'onclick="restart()">Restart</button>
+
+</div>
+<div class="targetUFOImage">
+    <img id="img1">
+</div>
+</div>
+<script src="https://kit.fontawesome.com/42d8882816.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
