@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+html, body{
+overflow-x: hidden;
+}
+
 
 .wrap{
 display: flex;
@@ -63,3 +67,59 @@ border-radius: 20px;
     padding: 10px 12px;
     border-radius: 20px; 
 }
+
+ /*ipad*/
+ @media screen and (max-width: 992px) {
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        width: 90%;    
+        }
+        .mainBox{
+            background-color: #D6EAF8 ;
+            padding: 30px;
+            width: 70%;
+text-align: center;
+font-size: 50px;
+        }
+        .targetUFOImage{
+            width: 70%; 
+            padding-left: 50px;  
+            margin-top: 50px;
+        }
+        #checkGuessID{
+          font-size: 20px;
+        }
+      
+ }
+ 
+ /*ipad-mini*/
+ @media screen and (max-width: 768px) {
+ }
+ 
+ /*phone*/
+ @media screen and (max-width: 600px) {
+    .targetHeader{         
+        width: 60%;
+        margin-top: 15px;
+    }
+    .mainBox{
+        background-color: #D6EAF8 ;
+        padding: 30px;
+        width: 70%;
+text-align: center;
+
+    }
+    .wrap{
+        margin: 30px auto;       
+        }
+        #blankWord{
+          
+            font-size:30px;
+        }
+        .targetUFOImage{
+            width: 100%; 
+            padding-left: 0px;  
+        }
+ }
+
